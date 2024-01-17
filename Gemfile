@@ -40,6 +40,11 @@ gem 'graphql', '~> 2.2', '>= 2.2.5'
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
+
+  # Needed for the GraphiQL gem
+  gem 'sprockets-rails'
+
+  # GraphiQL is an in-browser tool for querying, mutating, and subscribing to GraphQL endpoints
   gem 'graphiql-rails', '~> 1.9'
 end
 
