@@ -89,6 +89,11 @@ GEM
     drb (2.2.0)
       ruby2_keywords
     erubi (1.12.0)
+    factory_bot (6.4.5)
+      activesupport (>= 5.0.0)
+    factory_bot_rails (6.4.3)
+      factory_bot (~> 6.4)
+      railties (>= 5.0.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
     graphiql-rails (1.9.0)
@@ -204,6 +209,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
+  factory_bot_rails (~> 6.4, >= 6.4.3)
   graphiql-rails (~> 1.9)
   graphql (~> 2.2, >= 2.2.5)
   puma (>= 5.0)
