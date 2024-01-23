@@ -48,6 +48,7 @@ group :development, :test do
   gem 'graphiql-rails', '~> 1.9'
 
   gem 'factory_bot_rails', '~> 6.4', '>= 6.4.3'
+  gem "rspec-rails", "~> 6.1"
 end
 
 group :development do
@@ -55,4 +56,3 @@ group :development do
   # gem "spring"
 
 end
-
